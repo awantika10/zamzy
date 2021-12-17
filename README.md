@@ -71,8 +71,8 @@ Women communities encourage the sharing of stories and journeys, which help in b
 - [Figma](https://www.figma.com/)
 - [Canva](https://www.canva.com/)
 - [Express.Js](https://www.canva.com/)
-- [Google AUth Api]
-- [ChatEngine.io]
+- [Google AUth Api]()
+- [ChatEngine.io]()
 
 
 
