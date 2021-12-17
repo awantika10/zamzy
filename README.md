@@ -110,8 +110,8 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ## Contributing
-#Aryan Bhardwaj : Front-End and Backend
-#Awantika Nigam : Design and Documentation 
+# Aryan Bhardwaj : Front-End and Backend
+# Awantika Nigam : Design and Documentation 
 
 ## License
 
@@ -126,23 +126,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## PPT Link
 https://www.canva.com/design/DAEyyoFrY-Q/share/preview?token=5WDrJQ2BOyzjrpKQHKbYyA&role=EDITOR&utm_content=DAEyyoFrY-Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/awantika10/zamzy.git
-   ```
-2. Install NPM packages and dependencies
-   ```sh
-   npm install
-   ```
-3. Run the package   
-   ```sh
-   npm start and node server.js
-   ```
-4.  Run the Node Server
-    ```sh
-    node server.js
-   ```
