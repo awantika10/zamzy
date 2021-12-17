@@ -108,7 +108,24 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
- 
+
+## Contributing
+#Aryan Bhardwaj : Front-End and Backend
+#Awantika Nigam : Design and Documentation 
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+
+## UI designs
+![Hero 01](https://user-images.githubusercontent.com/71998138/146591436-6be17a84-8248-4b8f-a72c-f48f77a7dcaf.png)
+![main screen (2)](https://user-images.githubusercontent.com/71998138/146591430-95b56dc3-3c5b-4e15-91a6-14dd5775fc8f.jpg)
+![main screen (3)](https://user-images.githubusercontent.com/71998138/146591438-61fa647e-c2b0-458d-b55d-bf7f7a3d525b.jpg)
+
+## PPT Link
+https://www.canva.com/design/DAEyyoFrY-Q/share/preview?token=5WDrJQ2BOyzjrpKQHKbYyA&role=EDITOR&utm_content=DAEyyoFrY-Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
@@ -129,20 +146,3 @@ _Below is an example of how you can instruct your audience on installing and set
     ```sh
     node server.js
    ```
-
-## Contributing
-#Aryan Bhardwaj : Front-End and Backend
-#Awantika Nigam : Design and Documentation 
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-
-## UI designs
-![Hero 01](https://user-images.githubusercontent.com/71998138/146591436-6be17a84-8248-4b8f-a72c-f48f77a7dcaf.png)
-![main screen (2)](https://user-images.githubusercontent.com/71998138/146591430-95b56dc3-3c5b-4e15-91a6-14dd5775fc8f.jpg)
-![main screen (3)](https://user-images.githubusercontent.com/71998138/146591438-61fa647e-c2b0-458d-b55d-bf7f7a3d525b.jpg)
-
-## PPT Link
-https://www.canva.com/design/DAEyyoFrY-Q/share/preview?token=5WDrJQ2BOyzjrpKQHKbYyA&role=EDITOR&utm_content=DAEyyoFrY-Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
