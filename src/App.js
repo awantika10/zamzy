@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Messaging from "./Components/Messaging/Messaging"
+import Footer from "./Components/Footer/Footer"
 
 // import Login from './Components/Login/Login';
 
@@ -32,6 +33,7 @@ function App() {
             <Banner />
             <About />
             <Consult />
+            <Footer />
           </Route>
         </Switch>
       </Router>
