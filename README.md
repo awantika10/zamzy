@@ -64,6 +64,7 @@ Women communities encourage the sharing of stories and journeys, which help in b
 
 - [React.js](https://reactjs.org/)
 - [React Strap](https://reactstrap.github.io/)
+- [React Router](https://reactrouter.com/)
 - [SCSS](https://sass-lang.com/)
 - [Node.Js](https://nodejs.org/en/)
 - [Google Firebase](https://firebase.google.com/)
