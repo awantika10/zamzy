@@ -1,11 +1,16 @@
 import React, { useState } from "react";
-import { Navbar, Container, Nav, Button } from "react-bootstrap";
-import Logo from "../../assets/images/Logo.png";
+import Header from "../Header/Header";
+import Avatar from "../../assets/images/Avatar.png";
+import { FiSend } from "react-icons/fi";  
+import { FiShare2 } from "react-icons/fi";  
+import { FiEye } from "react-icons/fi";  
+import { FiVideo } from "react-icons/fi";  
+import { FiHeart } from "react-icons/fi";  
 import GoogleLogin from "react-google-login";
-import { Link } from "react-router-dom";
-import Sidebar from "../../assets/others/sidebar"
+import Logo from "../../assets/images/Logo.png";
+import {Card, Navbar, Container, Nav, Button} from "react-bootstrap"
 
-function Header() {
+function Dashboard() {
   const [loginData, setLoginData] = useState(
     localStorage.getItem("loginData")
       ? JSON.parse(localStorage.getItem("loginData"))
@@ -32,28 +37,24 @@ function Header() {
     localStorage.removeItem("loginData");
     setLoginData(null);
   };
-
   return (
     <div className="navBar">
-      <Navbar bg="white" expand="lg" className="nav">
+      <Navbar bg="#FFE5E9" expand="lg" className="nav">
         <Container className="navContainer">
-        <div className = "sidebar">
-        <Sidebar />
-      </div>
           <Navbar.Brand href="#home" className="navBrand">
             <img src={Logo} alt="Logo Zamzy" className="logoHeader" id="home" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="navCollapse">
             <Nav className="me-auto navClass">
-              <Nav.Link href="#home" className="navLink">
-                Home
+              <Nav.Link href="/dashboard" className="navLink">
+                Wall
               </Nav.Link>
-              <Nav.Link href="#story" className="navLink">
-                Stories
+              <Nav.Link href="/message" className="navLink">
+                Messaging
               </Nav.Link>
               <Nav.Link href="#consult" className="navLink">
-                Consult
+                Career
               </Nav.Link>
             </Nav>
             <Nav className="me-auto navBtn">
@@ -89,8 +90,94 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className="stories">
+        <div className="head">
+          <h4>Story :</h4>
+        </div>
+        <div className="pictures">
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+          <img src={Avatar} alt = "Story" className="story" />
+        </div>
+      </div>
+      <div className="card">
+        <div className="profile">
+          <img src={Avatar} alt="Avatar" className="profileImg"/>
+          <div className="profile-name">
+            <h4 className="name">Malvika Singh</h4>
+            <h5 className="place">Delhi, 2012</h5>
+          </div>
+        </div>
+        <input type = "message" className="message" placeholder="Write your Caption Here . . ."/>
+        <div className = "icons">
+          <h4 className="name" type = "file"><FiVideo /> Post a Video</h4>
+          <h4 className="name"><FiShare2 /> Share a Message</h4>
+          <h4 className="name"><FiEye /> 2 People Viewed</h4>
+        </div>
+        <div className="profile-comment">
+          <img src={Avatar} alt="Avatar" className="profileImg"/>
+          <div className="profile-name">
+        <input type = "message" className="comment" placeholder="Comments"/>
+        <FiSend style = {{cursor: "pointer"}}/>
+          </div>
+        </div>
+      </div>
+      <div className = "postCard">
+      <Card className = "card">
+    <Card.Img variant="top" src="https://images.unsplash.com/photo-1469086681958-23241118bb0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" className = "postImg"/>
+    <Card.Body>
+      <div className="icon">
+        <FiHeart className = "heart" size = {25}/>
+        <FiShare2 />
+        <input type = "message" alt = 'message' placeholder="Comment" className = "comment"/>
+        <FiSend />
+      </div>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+  <Card className = "card">
+    <Card.Img variant="top" src="https://images.unsplash.com/photo-1581404917879-53e19259fdda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" className = "postImg"/>
+    <Card.Body>
+      <div className="icon">
+        <FiHeart className = "heart" size = {25}/>
+        <FiShare2 />
+        <input type = "message" alt = 'message' placeholder="Comment" className = "comment"/>
+        <FiSend />
+      </div>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card><Card className = "card">
+    <Card.Img variant="top" src="https://images.unsplash.com/photo-1469086681958-23241118bb0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" className = "postImg"/>
+    <Card.Body>
+      <div className="icon">
+        <FiHeart className = "heart" size = {25}/>
+        <FiShare2 />
+        <input type = "message" alt = 'message' placeholder="Comment" className = "comment"/>
+        <FiSend />
+      </div>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+      </div>
     </div>
   );
 }
 
-export default Header;
+export default Dashboard;

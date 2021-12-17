@@ -1,3 +1,91 @@
 .navBar {
     background-color: #FFE5E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .card {
+        width: 50rem;
+        height: 20rem;
+        background-color: #fff;
+        border-radius: 8px;
+        margin: 20px;
+        .profile {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            .profileImg {
+                width: 2rem;
+                height: 2rem;
+                margin: 20px;
+            }
+            .profile-name {
+                .name {
+                    font-size: small;
+                }
+                .place {
+                    font-size: smaller;
+                }
+            }
+        }
+        .message {
+            margin: 20px;
+            height: 8rem;
+            border: none;
+        }
+        .icons {
+            display: flex;
+            margin: 20px;
+            gap: 5rem;
+            .name {
+                font-size: small;
+            }
+            .name:hover {
+                color: #FFE5E9;
+                cursor: pointer;
+            }
+        }
+        .profile-comment {
+            display: flex;
+            gap:2rem;
+            align-items: center;
+            margin: 20px;
+            .comment {
+                max-width: 100%;
+                border: none;
+            }
+        }
+    }
+    .stories {
+        .pictures {
+            
+            .story {
+                width: 3rem;
+                margin: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .postCard {
+        .card {
+            .postImg {
+                width: 100%;
+                height: 65%;
+            }
+            .icon {
+                .heart {
+                    margin:20px
+                }
+                .heart:hover {
+                    color: red;
+                    cursor: pointer;
+                }   
+                .comment {
+                    margin: 20px;
+                    border: none;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
 }

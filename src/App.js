@@ -12,6 +12,7 @@ import {
   Switch,
 } from "react-router-dom";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Messaging from "./Components/Messaging/Messaging"
 
 // import Login from './Components/Login/Login';
 
@@ -22,6 +23,9 @@ function App() {
         <Switch>
           <Route path="/dashboard">
             <Dashboard />
+          </Route>
+          <Route path = "/message">
+            <Messaging />
           </Route>
           <Route path="/">
             <Header />
