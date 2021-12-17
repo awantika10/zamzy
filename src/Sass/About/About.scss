@@ -1,0 +1,69 @@
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    // margin: 6rem;
+    .aboutCont {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        .aboutHead {
+            .aboutPara {
+                display: flex;
+                gap: 1.5rem;
+            .boxOne {
+                width: 12rem;
+                height: 12rem;
+                background-color: #E8EEF3;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .onePara {
+                    font-size: medium;
+                    color: #414141;
+                    text-align: center;
+                }
+                .oneName {
+                    font-size: small;
+                    text-align: center;
+                }
+                .oneDetail {
+                    text-align: center;
+                    font-size: small;
+                }
+            }
+            .boxTwo {
+                width: 12rem;
+                height: 12rem;
+                background-color: #E8EEF3;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .onePara {
+                    font-size: medium;
+                    color: #414141;
+                    text-align: center;
+                }
+                .oneName {
+                    font-size: small;
+                    text-align: center;
+                }
+                .oneDetail {
+                    text-align: center;
+                    font-size: small;
+                }
+            }
+            }
+        }
+    }
+    .aboutImg {
+        .aboutImage {
+            width: 35rem;
+        }
+    }
+}

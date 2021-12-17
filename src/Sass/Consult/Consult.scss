@@ -1,0 +1,26 @@
+.Banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin: 6rem;
+    .bannerCont {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .bannerHead {
+            
+        }
+        .navBtn {
+            .bannerBtn {
+                width: 7rem;
+                margin: 0.5rem;
+            }
+        }
+    }
+    .bannerImg {
+        .bannerImage {
+            width: 28rem;
+        }
+    }
+}
