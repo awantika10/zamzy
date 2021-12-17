@@ -71,8 +71,8 @@ Women communities encourage the sharing of stories and journeys, which help in b
 - [Figma](https://www.figma.com/)
 - [Canva](https://www.canva.com/)
 - [Express.Js](https://www.canva.com/)
-- Google AUth Api
-- Chat Engine.io
+- [Google AUth Api]
+- [ChatEngine.io]
 
 
 
@@ -125,7 +125,8 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm start and node server.js
    ```
-4.  ```sh
+4.  Run the Node Server
+    ```sh
     node server.js
    ```
 
