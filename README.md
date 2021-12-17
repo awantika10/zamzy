@@ -130,21 +130,14 @@ _Below is an example of how you can instruct your audience on installing and set
     node server.js
    ```
 
-
-<!-- CONTRIBUTING -->
-
 ## Contributing
 #Aryan Bhardwaj : Front-End and Backend
 #Awantika Nigam : Design and Documentation 
-
-<!-- LICENSE -->
 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-
-<!-- CONTACT -->
 
 ## UI designs
 ![Hero 01](https://user-images.githubusercontent.com/71998138/146591436-6be17a84-8248-4b8f-a72c-f48f77a7dcaf.png)
