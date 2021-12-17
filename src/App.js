@@ -7,15 +7,13 @@ import About from "./Components/About/About";
 import Consult from "./Components/Consult/Consult";
 import {
   BrowserRouter as Router,
-  Routes,
   Route,
   Switch,
 } from "react-router-dom";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Messaging from "./Components/Messaging/Messaging"
 import Footer from "./Components/Footer/Footer"
-
-// import Login from './Components/Login/Login';
+import Career from "./Components/Career/Career"
 
 function App() {
   return (
@@ -27,6 +25,9 @@ function App() {
           </Route>
           <Route path = "/message">
             <Messaging />
+          </Route>
+          <Route path="/career">
+            <Career />
           </Route>
           <Route path="/">
             <Header />

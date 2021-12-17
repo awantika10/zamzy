@@ -3,8 +3,6 @@ import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import Logo from "../../assets/images/Logo.png";
 import GoogleLogin from "react-google-login";
 import { Link } from "react-router-dom";
-import { ChatEngine } from 'react-chat-engine';
-
 
 function Header() {
   const [loginData, setLoginData] = useState(
@@ -38,7 +36,7 @@ function Header() {
     <div className="navBar">
       <Navbar bg="white" expand="lg" className="nav">
         <Container className="navContainer">
-          <Navbar.Brand href="#home" className="navBrand">
+          <Navbar.Brand href="/" className="navBrand">
             <img src={Logo} alt="Logo Zamzy" className="logoHeader" id="home" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -47,7 +45,7 @@ function Header() {
               <Nav.Link href="/dashboard" className="navLink">
                 Wall
               </Nav.Link>
-              <Nav.Link active href="/message" className="navLink">
+              <Nav.Link href="/message" className="navLink">
                 Messaging
               </Nav.Link>
               <Nav.Link href="/career" className="navLink">
@@ -87,15 +85,7 @@ function Header() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className = "chat">
-      <ChatEngine
-			height='100vh'
-			userName='aryan.bhardwaj1233@outlook.com'
-			userSecret='Aryan2kool'
-			projectID='cbcc328e-9208-4751-8017-165c5f300c57'
-            
-		/>
-      </div>
+      <h1>Under Maintainence 🚧 </h1>
     </div>
   );
 }

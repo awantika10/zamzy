@@ -53,7 +53,7 @@ function Dashboard() {
               <Nav.Link href="/message" className="navLink">
                 Messaging
               </Nav.Link>
-              <Nav.Link href="#consult" className="navLink">
+              <Nav.Link href="/career" className="navLink">
                 Career
               </Nav.Link>
             </Nav>
