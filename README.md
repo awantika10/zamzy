@@ -137,8 +137,6 @@ _Below is an example of how you can instruct your audience on installing and set
 #Aryan Bhardwaj : Front-End and Backend
 #Awantika Nigam : Design and Documentation 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## License
@@ -155,9 +153,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## PPT Link
 https://www.canva.com/design/DAEyyoFrY-Q/share/preview?token=5WDrJQ2BOyzjrpKQHKbYyA&role=EDITOR&utm_content=DAEyyoFrY-Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
-
-
-
-
-
-
