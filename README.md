@@ -7,7 +7,9 @@ Women communities encourage the sharing of stories and journeys, which help in b
 <!-- PROJECT LOGO -->
 <br />
 
- 
+# Video
+
+https://user-images.githubusercontent.com/74592979/146594437-12d4b6c3-0d79-4887-9f58-496b53d42bb3.mp4
 
 <!-- TABLE OF CONTENTS -->
 <details>
