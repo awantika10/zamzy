@@ -1,4 +1,4 @@
-# Zamzy - Hack4Women
+# Zamzy - Hack4Women : Girlscript Summit 2021
 Share any stories and encourage women to uplift the community! 
 Women communities encourage the sharing of stories and journeys, which help in breaking those archaic patterns.
 
@@ -107,6 +107,21 @@ This is an example of how to list things you need to use the software and how to
 - npm
   ```sh
   npm install npm@latest -g
+  ```
+  
+- install dependencies
+  ```sh
+  npm install 
+  ```
+  
+- start the server
+  ```sh
+  npm start
+  ```
+  
+- node server
+  ```sh
+  node server.js
   ```
 
 ## Contribution
